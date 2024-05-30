@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(155, 255, 147, 0.211);
+    font-family: monospace;
+}
+
+.statusContent {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.inputStatus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+button:hover {
+    background-color: #3e8e41; 
+}

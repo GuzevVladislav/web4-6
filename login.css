@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  color: rgb(52, 90, 42);
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333b34;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form {
+  flex-direction: column;
+  align-items: center;
+}
+form input {
+  margin-top: 20px;
+  height: 30px;
+  font-size: 20px;
+}
+form button {
+  margin-top: 30px;
+}/*# sourceMappingURL=login.css.map */
